@@ -1,0 +1,35 @@
+#board {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  width: 200px;
+  height: 40px;
+  padding: 0;
+}
+
+.disc1:before,
+.disc2:before,
+.disc3:before {
+  content: " ";
+  display: block;
+  margin: auto;
+  height: 40px;
+}
+
+.disc1:before {
+  width: 50px;
+  background: green;
+}
+
+.disc2:before {
+  width: 100px;
+  background: blue;
+}
+
+.disc3:before {
+  width: 150px;
+  background: purple;
+}
