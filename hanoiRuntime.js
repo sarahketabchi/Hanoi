@@ -1,19 +1,8 @@
-// play loop start
-  // Draw the board
-  // start get move loop
-    // Prompt for move
-    // If it's valid jump out of get move loop
-  // make move
-  // redraw board
-  // if victory show win message
-
 function drawBoard(board) {
   $("#board td").removeClass();
 
   for (var c = 0; c < board.length; c++) {
     for (var r = 0; r < board[c].length; r++) {
-      // we want to display the rows reverse of the way
-      // the board holds the rows.
       // if there's a disc in this cell we manipulate it's class.
       if (board[c][r] !== undefined){
         var cell = "#row"+r+"col"+c;
@@ -24,9 +13,6 @@ function drawBoard(board) {
   };
 };
 
-
-
-// ---------------
 function play(){
   drawBoard(hanoi.board);
 
