@@ -1,4 +1,4 @@
-// var Hanoi = require('./hanoi')
+// var Hanoi = require('./hanoi');
 // function s(game){ console.log(game) };
 
 

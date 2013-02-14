@@ -36,21 +36,7 @@ function hanoiGame() {
 
 };
 
-// function play() {
-//   var game = hanoiGame();
-
-//   while( !game.victory() ) {
-//     // show board
-//     // loop : getMove until valid move (check move)
-//     // make move
-//   }
-
-// };
-
-
 // Node Shiz
 // module.exports = {
-//   // hello_you: hello_you,
-//   // hello_you_all: hello_you_all
 //   hanoiGame: hanoiGame
 // };
